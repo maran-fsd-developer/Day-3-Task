@@ -2,7 +2,7 @@
 //!let obj1={name:"person1",age:5};
 //!let obj2={age:5,name:"person 1"};
 
-/*function deepEqual(obj1, obj2) {
+function deepEqual(obj1, obj2) {
   let keys1 = Object.keys(obj1);
   let keys2 = Object.keys(obj2);
 
@@ -20,10 +20,10 @@ let obj1 = { name: "person 1", age: 5 };
 let obj2 = { age: 5, name: "person 1" };
 
 let areEqual = deepEqual(obj1, obj2);
-console.log(areEqual); */
+console.log(areEqual);
 
 //! 2.Display all the country flags in the console.
-/*var request = new XMLHttpRequest();
+var request = new XMLHttpRequest();
 request.open("GET", "https://restcountries.com/v3.1/all", true);
 request.send();
 request.onload = function () {
@@ -32,10 +32,10 @@ request.onload = function () {
   for (var i = 0; i < result.length; i++) {
     console.log(result[i].flags.svg);
   }
-};*/
+};
 
 //! 3.Print all countries names,regions,sub-region and populations.
-/*var request1 = new XMLHttpRequest();
+var request1 = new XMLHttpRequest();
 request1.open("GET", "https://restcountries.com/v3.1/all", true);
 request1.send();
 request1.onload = function () {
@@ -49,4 +49,4 @@ request1.onload = function () {
       "population:" + " " + result1[i].population
     );
   }
-};*/
+};
